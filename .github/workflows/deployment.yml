@@ -10,7 +10,7 @@ name: Deployment
 on:
   workflow_dispatch:
   push:
-    branches: [ "main" ]
+    branches: [ "feature/201902657" ]
 
 permissions:
   contents: read
@@ -49,7 +49,7 @@ jobs:
           host: 34.64.170.10
           username: kijeong424
           source: "real_coding_server-0.0.1-SNAPSHOT.jar"
-          target: "/home/adulkid.kaya"
+          target: "/home/kijeong424"
           key: ${{ secrets.PRIVATE_KEY }}
   
   run-app:
