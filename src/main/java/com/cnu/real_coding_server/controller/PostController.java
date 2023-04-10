@@ -5,6 +5,7 @@ import com.cnu.real_coding_server.model.request.PostRequest;
 import com.cnu.real_coding_server.service.PostService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
+
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
