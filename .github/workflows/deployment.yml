@@ -10,7 +10,7 @@ name: Deployment
 on:
   workflow_dispatch:
   push:
-    branches: [ "feature/201902657" ]
+    branches: [ "main" ]
 
 permissions:
   contents: read
